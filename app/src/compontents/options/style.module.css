@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    gap: 20px;
+    transition: .3s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+    user-select: none;
+}
+
+.container:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon svg {
+    fill: rgb(0 214 214);
+    width: 40px;
+    height: 40px;
+}
+
+.desc {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc span {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+.desc small {
+    font-size: 15px;
+    color: rgb(0 214 214);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}

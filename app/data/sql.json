@@ -1,0 +1,38 @@
+[
+    {
+        "id": "Mysql",
+        "name": "Mysql",
+        "type": "sql",
+        "popular": true
+    },
+    {
+        "id": "Firebase",
+        "name": "Firebase",
+        "type": "nosql",
+        "popular": true
+    },
+    {
+        "id": "Mongodb",
+        "name": "Mongodb",
+        "type": "nosql",
+        "popular": true
+    },
+    {
+        "id": "Postgresql",
+        "name": "Postgresql",
+        "type": "sql",
+        "popular": true
+    },
+    {
+        "id": "Oracle",
+        "name": "Orcle",
+        "type": "sql",
+        "popular": true
+    },
+    {
+        "id": "Redis",
+        "name": "Redis",
+        "type": "nosql",
+        "popular": true
+    }
+]
