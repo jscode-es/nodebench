@@ -12,6 +12,8 @@ function createWindow() {
         width: 800,
         center: true,
         frame: false,
+        show: false,
+        transparent: true,
         webPreferences: {
             nodeIntegration: true,
         },
@@ -41,8 +43,9 @@ function createWindow() {
     const FILE = `file://${path.join(__dirname, '../build/index.html')}`
 
     server({ win })
-
     win.loadURL(isDev ? URL : FILE)
+    win.maximize()
+    win.show()
 
     // Open the DevTools.
     if (isDev) win.webContents.openDevTools({ mode: 'detach' })

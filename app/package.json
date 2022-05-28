@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "dev:electron": "concurrently -k \"cross-env BROWSER=none npm run dev\" \"npm:electron\"",
+    "app": "concurrently -k \"cross-env BROWSER=none npm run dev\" \"npm:electron\"",
     "electron": "wait-on tcp:3000 && electron ."
   },
   "dependencies": {
