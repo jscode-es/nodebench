@@ -1,0 +1,19 @@
+.container {
+    background-color: #0b0e1c;
+    width: 100%;
+    min-width: 70px;
+    max-width: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+    app-region: drag;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

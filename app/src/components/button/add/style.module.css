@@ -1,0 +1,18 @@
+.container {
+    background: transparent;
+    color: rgb(0 214 214);
+    border: solid 1px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.container:hover {
+    cursor: pointer;
+    background-color: rgb(0 214 214);
+    color: rgb(15 17 32);
+}

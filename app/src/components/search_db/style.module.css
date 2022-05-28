@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    background: #0f1120;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+    color: #fffbfb;
+}
+
+.input input {
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    outline: none;
+    color: white;
+    width: 100%;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    margin-bottom: 35px;
+}
+
+
+.result>div {
+    background: #0f1120;
+    height: 108px;
+    width: 108px;
+    border-radius: 5px;
+}

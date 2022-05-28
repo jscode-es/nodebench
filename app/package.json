@@ -12,11 +12,15 @@
     "electron": "wait-on tcp:3000 && electron ."
   },
   "dependencies": {
+    "lowdb": "^2.1.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
     "socket.io": "4.5.1",
-    "socket.io-client": "4.5.1"
+    "socket.io-client": "4.5.1",
+    "uuid": "^8.3.2",
+    "websql": "^2.0.3"
   },
   "devDependencies": {
     "concurrently": "7.2.1",

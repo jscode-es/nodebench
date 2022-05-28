@@ -3,8 +3,11 @@ const path = require('path')
 const { app, BrowserWindow } = require('electron')
 const isDev = require('electron-is-dev')
 const server = require('./server')
+//const Database = require('./database')
 
-function createWindow() {
+async function createWindow() {
+
+    //await Database.init()
 
     // Create the browser window.
     const win = new BrowserWindow({
@@ -43,6 +46,7 @@ function createWindow() {
     const FILE = `file://${path.join(__dirname, '../build/index.html')}`
 
     server({ win })
+
     win.loadURL(isDev ? URL : FILE)
     win.maximize()
     win.show()
